@@ -1,0 +1,274 @@
+{
+  "network": {
+    "network": "synthetic 40x40 city",
+    "nodes": 1596,
+    "edges": 5744,
+    "road_km": 619.8102994207901
+  },
+  "e1": {
+    "pairs": 200,
+    "dijkstra_ms": 7.453551244995538,
+    "dijkstra_nodes": 760.92,
+    "astar_ms": 6.107535604995746,
+    "astar_nodes": 511.03,
+    "prod_astar_ms": 5.908516455002655,
+    "p95_prod_astar_ms": 12.50744100002521,
+    "max_cost_gap": 0.0,
+    "node_reduction": 0.3284050885769858
+  },
+  "e2": {
+    "background": {
+      "dijkstra_freeflow": {
+        "n": 150,
+        "mean_s": 866.4666666666667,
+        "median_s": 872.5,
+        "p90_s": 1215,
+        "mean_saving_vs_dijkstra_pct": 0.0,
+        "reroutes_per_trip": 0,
+        "replans_per_trip": 0,
+        "forced_detours_per_trip": 0,
+        "arrived_pct": 100
+      },
+      "astar_snapshot": {
+        "n": 150,
+        "mean_s": 850.8,
+        "median_s": 865.0,
+        "p90_s": 1185,
+        "mean_saving_vs_dijkstra_pct": 1.9079762012493267,
+        "reroutes_per_trip": 0,
+        "replans_per_trip": 0,
+        "forced_detours_per_trip": 0,
+        "arrived_pct": 100
+      },
+      "proposed": {
+        "n": 150,
+        "mean_s": 850.8,
+        "median_s": 865.0,
+        "p90_s": 1185,
+        "mean_saving_vs_dijkstra_pct": 1.9079762012493267,
+        "reroutes_per_trip": 0,
+        "replans_per_trip": 0.006666666666666667,
+        "forced_detours_per_trip": 0,
+        "arrived_pct": 100
+      },
+      "proposed_vs_snapshot": {
+        "mean_saved_s": 0,
+        "ci95_saved_s": 0.0,
+        "mean_saved_pct": 0.0,
+        "better_pct": 0,
+        "worse_pct": 0,
+        "max_saved_s": 0,
+        "max_lost_s": 0
+      }
+    },
+    "jam": {
+      "dijkstra_freeflow": {
+        "n": 150,
+        "mean_s": 893.4,
+        "median_s": 902.5,
+        "p90_s": 1230,
+        "mean_saving_vs_dijkstra_pct": 0.0,
+        "reroutes_per_trip": 0,
+        "replans_per_trip": 0,
+        "forced_detours_per_trip": 0,
+        "arrived_pct": 100
+      },
+      "astar_snapshot": {
+        "n": 150,
+        "mean_s": 904.9333333333333,
+        "median_s": 912.5,
+        "p90_s": 1225,
+        "mean_saving_vs_dijkstra_pct": -1.9975300901954558,
+        "reroutes_per_trip": 0,
+        "replans_per_trip": 0,
+        "forced_detours_per_trip": 0,
+        "arrived_pct": 100
+      },
+      "proposed": {
+        "n": 150,
+        "mean_s": 888.6666666666666,
+        "median_s": 897.5,
+        "p90_s": 1225,
+        "mean_saving_vs_dijkstra_pct": 0.5799600735076823,
+        "reroutes_per_trip": 0.14,
+        "replans_per_trip": 0.14666666666666667,
+        "forced_detours_per_trip": 0,
+        "arrived_pct": 100
+      },
+      "proposed_vs_snapshot": {
+        "mean_saved_s": 16.266666666666666,
+        "ci95_saved_s": 6.9083359008315,
+        "mean_saved_pct": 2.127003738510121,
+        "better_pct": 14.000000000000002,
+        "worse_pct": 0,
+        "max_saved_s": 190,
+        "max_lost_s": 0
+      }
+    },
+    "congestion": {
+      "dijkstra_freeflow": {
+        "n": 150,
+        "mean_s": 948.6,
+        "median_s": 945.0,
+        "p90_s": 1285,
+        "mean_saving_vs_dijkstra_pct": 0.0,
+        "reroutes_per_trip": 0,
+        "replans_per_trip": 0,
+        "forced_detours_per_trip": 0,
+        "arrived_pct": 100
+      },
+      "astar_snapshot": {
+        "n": 150,
+        "mean_s": 1001.8333333333334,
+        "median_s": 987.5,
+        "p90_s": 1295,
+        "mean_saving_vs_dijkstra_pct": -7.204408295982123,
+        "reroutes_per_trip": 0,
+        "replans_per_trip": 0,
+        "forced_detours_per_trip": 0,
+        "arrived_pct": 100
+      },
+      "proposed": {
+        "n": 150,
+        "mean_s": 939.5,
+        "median_s": 927.5,
+        "p90_s": 1265,
+        "mean_saving_vs_dijkstra_pct": 0.8367688751556344,
+        "reroutes_per_trip": 0.31333333333333335,
+        "replans_per_trip": 0.34,
+        "forced_detours_per_trip": 0,
+        "arrived_pct": 100
+      },
+      "proposed_vs_snapshot": {
+        "mean_saved_s": 62.333333333333336,
+        "ci95_saved_s": 16.652496884795855,
+        "mean_saved_pct": 6.232607467010465,
+        "better_pct": 31.333333333333336,
+        "worse_pct": 0,
+        "max_saved_s": 365,
+        "max_lost_s": 0
+      }
+    },
+    "closure": {
+      "dijkstra_freeflow": {
+        "n": 150,
+        "mean_s": 903.5,
+        "median_s": 905.0,
+        "p90_s": 1245,
+        "mean_saving_vs_dijkstra_pct": 0.0,
+        "reroutes_per_trip": 0,
+        "replans_per_trip": 0,
+        "forced_detours_per_trip": 0.7333333333333333,
+        "arrived_pct": 100
+      },
+      "astar_snapshot": {
+        "n": 150,
+        "mean_s": 898.2666666666667,
+        "median_s": 910.0,
+        "p90_s": 1240,
+        "mean_saving_vs_dijkstra_pct": 0.5672211587082722,
+        "reroutes_per_trip": 0,
+        "replans_per_trip": 0,
+        "forced_detours_per_trip": 1,
+        "arrived_pct": 100
+      },
+      "proposed": {
+        "n": 150,
+        "mean_s": 878.3666666666667,
+        "median_s": 885.0,
+        "p90_s": 1210,
+        "mean_saving_vs_dijkstra_pct": 2.7312401627089407,
+        "reroutes_per_trip": 1,
+        "replans_per_trip": 1.0066666666666666,
+        "forced_detours_per_trip": 0,
+        "arrived_pct": 100
+      },
+      "proposed_vs_snapshot": {
+        "mean_saved_s": 19.9,
+        "ci95_saved_s": 3.681992199785887,
+        "mean_saved_pct": 2.1726864259296494,
+        "better_pct": 68.0,
+        "worse_pct": 4.0,
+        "max_saved_s": 90,
+        "max_lost_s": 10
+      }
+    }
+  },
+  "e3": [
+    {
+      "delta_c": 0.0,
+      "n": 600,
+      "mean_s": 881.5583333333333,
+      "reroutes_per_trip": 0.525,
+      "replans_per_trip": 13.766666666666667,
+      "forced_detours_per_trip": 0
+    },
+    {
+      "delta_c": 0.1,
+      "n": 600,
+      "mean_s": 882.7333333333333,
+      "reroutes_per_trip": 0.46166666666666667,
+      "replans_per_trip": 1.0216666666666667,
+      "forced_detours_per_trip": 0
+    },
+    {
+      "delta_c": 0.2,
+      "n": 600,
+      "mean_s": 886.6833333333333,
+      "reroutes_per_trip": 0.395,
+      "replans_per_trip": 0.49666666666666665,
+      "forced_detours_per_trip": 0
+    },
+    {
+      "delta_c": 0.3,
+      "n": 600,
+      "mean_s": 889.3333333333334,
+      "reroutes_per_trip": 0.36333333333333334,
+      "replans_per_trip": 0.375,
+      "forced_detours_per_trip": 0
+    },
+    {
+      "delta_c": 0.5,
+      "n": 600,
+      "mean_s": 896.2166666666667,
+      "reroutes_per_trip": 0.315,
+      "replans_per_trip": 0.31666666666666665,
+      "forced_detours_per_trip": 0
+    },
+    {
+      "delta_c": 1.0,
+      "n": 600,
+      "mean_s": 905.825,
+      "reroutes_per_trip": 0.2633333333333333,
+      "replans_per_trip": 0.2633333333333333,
+      "forced_detours_per_trip": 0
+    }
+  ],
+  "e4": {
+    "nearest": {
+      "n": 300,
+      "drive_min": 5.213600400755828,
+      "wait_min": 19.106666666666666,
+      "drive_plus_wait_min": 24.320267067422495,
+      "specialty_match_pct": 50.0,
+      "bed_available_pct": 92.33333333333333
+    },
+    "fastest": {
+      "n": 300,
+      "drive_min": 5.15340957706234,
+      "wait_min": 18.563333333333333,
+      "drive_plus_wait_min": 23.716742910395674,
+      "specialty_match_pct": 49.666666666666664,
+      "bed_available_pct": 92.33333333333333
+    },
+    "proposed": {
+      "n": 300,
+      "drive_min": 8.594959835540422,
+      "wait_min": 12.3,
+      "drive_plus_wait_min": 20.894959835540423,
+      "specialty_match_pct": 91.0,
+      "bed_available_pct": 100
+    }
+  },
+  "runtime_s": 534.3022260665894
+}
